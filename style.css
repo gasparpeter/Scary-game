@@ -1,0 +1,47 @@
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.pinimg.com/originals/c0/29/2d/c0292d5a0b1883779ee9e1ca928a496b.jpg");
+    background-size: 100%;
+}
+
+#start-page {
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    margin: 20px auto;
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 40%;
+    top: 5px;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 35%;
+    top: 20px;
+}
+
+#start-btn {
+    width: 150px;
+    height: 80px;
+    background-color: crimson;
+    position: relative;
+    left: 40%;
+    top: 100px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-image: url("https://wallpaperplay.com/walls/full/2/6/1/141193.jpg");
+    background-size: 100%;
+}
