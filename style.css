@@ -77,7 +77,7 @@ h3 {
     background-color: blue;
     position: relative;
     top: 50px;
-    left: 50%;
+    left: 48%;
 }
 
 #lap2 {
@@ -96,7 +96,7 @@ h3 {
     background-color: crimson;
     position: relative;
     top: 50px;
-    left: 55%;
+    left: 53%;
     display: inline-block;
 }
 
@@ -106,5 +106,34 @@ h3 {
     background-color: blue;
     position: relative;
     top: 50px;
+    left: 50%;
+}
+
+#lap3 {
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    margin: 20px auto;
+    position: relative;
+    top: 50px;
+    display: none;
+}
+
+#kocka3 {
+    width: 20px;
+    height: 500px;
+    background-color: crimson;
+    position: relative;
+    top: 100px;
     left: 55%;
+    display: inline-block;
+}
+
+#finish3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 50%;
 }
