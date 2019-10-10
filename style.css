@@ -137,3 +137,20 @@ h3 {
     top: 50px;
     left: 50%;
 }
+
+#scary {
+    width: 180%;
+    height: 100%;
+    background-image: url("https://ksassets.timeincuk.net/wp/uploads/sites/55/2019/07/rev-1-ANNA3-TRL-001_High_Res_JPEG.jpeg");
+    background-size: 100%;
+}
+
+#scary-container {
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    margin: 20px auto;
+    position: relative;
+    top: 50px;
+    display: none;
+}

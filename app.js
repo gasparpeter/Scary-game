@@ -3,6 +3,10 @@ let lap1 =document.getElementById('lap1');
 let lap2 = document.getElementById('lap2');
 let lap3 = document.getElementById('lap3');
 
+
+let scaryContainer = document.getElementById('scary-container');
+let scary = document.getElementById('scary');
+
 let valami = document.getElementById('valami');
 
 let startBtn = document.getElementById('start-btn');
@@ -10,6 +14,8 @@ let startBtn = document.getElementById('start-btn');
 let kocka1 = document.getElementById('kocka1');
 let kocka2 = document.getElementById('kocka2');
 let kocka3 = document.getElementById('kocka3');
+
+var audio = new Audio('wickedlaugh1.mp3');
 
 let finish1 = document.getElementById('finish1');
 let finish2 = document.getElementById('finish2');
@@ -39,6 +45,14 @@ finish2.addEventListener('mouseout', function () {
    startPage.style.display = 'none';
 });
 
+finish3.addEventListener('mouseout', function () {
+   startPage.style.display = 'none';
+   lap1.style.display = 'none';
+   lap2.style.display = 'none';
+   lap3.style.display = 'none';
+   scaryContainer.style.display = 'block';
+   audio.play();
+});
 
 function startMenu() {
    lap1.style.display = 'none';
